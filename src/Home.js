@@ -14,7 +14,7 @@ const Home = () => {
       if (date2 > date1) {
         seconds = (new Date(date2) - new Date(date1)) / 1000;
       } else if (date1 > date2) {
-        seconds = (new Date(date1) - new Date(date2)) / 10000;
+        seconds = (new Date(date1) - new Date(date2)) / 1000;
       }
       minutes = seconds / 60;
       hours = minutes / 60;
